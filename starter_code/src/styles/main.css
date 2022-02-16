@@ -1,0 +1,33 @@
+
+.container-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rating-icon{
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+    background-image: url(../img/estrella.png);
+    background-size: cover;
+}
+
+.cart-icon{
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/carrito-de-compras.png);
+    background-size: cover;
+}
+
+.old-price{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.sale{
+    width: 40px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
